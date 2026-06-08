@@ -85,10 +85,10 @@
     },
     "preserveFixtureEvidence": {
       "label": "Preserve fixture evidence",
-      "proven": 74,
+      "proven": 77,
       "total": 422,
-      "remaining": 348,
-      "percent": 17.5
+      "remaining": 345,
+      "percent": 18.2
     },
     "payloadPreserveProof": {
       "label": "Payload preserve proof",
@@ -113,7 +113,7 @@
     "fieldSourceMapTestedFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureTestedFields": 74,
+    "preserveFixtureTestedFields": 77,
     "payloadPreserveFixtureMissingFields": 0,
     "domainsWithNativeFieldGaps": 0,
     "typesWithNativeFieldGaps": 0
@@ -137,7 +137,7 @@
     "fieldFixtureEvidenceFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureEvidenceFields": 74,
+    "preserveFixtureEvidenceFields": 77,
     "payloadPreserveFixtureMissingFields": 0
   },
   "preserveCounts": {
@@ -146,15 +146,15 @@
     "runtimePreserveProperties": 422,
     "payloadPreserveProperties": 12,
     "editorOnlyPreserveProperties": 234,
-    "preserveFixtureTestedProperties": 74,
+    "preserveFixtureTestedProperties": 77,
     "payloadPreserveFixtureMissingProperties": 0,
     "unassignedAnchorProperties": 0,
     "nativeSubsetTypes": 66,
     "anchorClassifiedPreserveTypes": 225,
     "preserveOnlyAnchorClassifiedTypes": 200,
     "nativeOrAnchorClassifiedTypes": 266,
-    "losslessPreserveCompleteTypes": 17,
-    "anchorClassifiedButFixtureIncompleteTypes": 208
+    "losslessPreserveCompleteTypes": 19,
+    "anchorClassifiedButFixtureIncompleteTypes": 206
   },
   "gapCounts": {
     "typeGaps": 185,
@@ -230,9 +230,9 @@
       "fieldProven": 26,
       "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
-      "preserveProven": 14,
+      "preserveProven": 17,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 130,
+      "preserveOrFuture": 127,
       "nativeProofPercent": 100,
       "runtimeNativePercent": 32.1
     },
