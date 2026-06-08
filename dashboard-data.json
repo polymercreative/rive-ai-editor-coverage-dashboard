@@ -71,24 +71,24 @@
   "summary": {
     "nativeFieldProof": {
       "label": "Native field proof",
-      "proven": 164,
-      "total": 164,
+      "proven": 185,
+      "total": 185,
       "remaining": 0,
       "percent": 100
     },
     "mappedTypeRollup": {
       "label": "Mapped native-subset types",
-      "proven": 66,
+      "proven": 71,
       "total": 353,
-      "remaining": 287,
-      "percent": 18.7
+      "remaining": 282,
+      "percent": 20.1
     },
     "preserveFixtureEvidence": {
       "label": "Preserve fixture evidence",
-      "proven": 193,
-      "total": 422,
-      "remaining": 229,
-      "percent": 45.7
+      "proven": 179,
+      "total": 401,
+      "remaining": 222,
+      "percent": 44.6
     },
     "payloadPreserveProof": {
       "label": "Payload preserve proof",
@@ -99,21 +99,21 @@
     },
     "totalHandledTypeCompletion": {
       "label": "Native or anchor-classified types",
-      "proven": 266,
+      "proven": 267,
       "total": 353,
-      "remaining": 87,
-      "percent": 75.4,
+      "remaining": 86,
+      "percent": 75.6,
       "note": "This is not field-complete proof; it is a map of types with native or preserve anchors."
     }
   },
   "proofCounts": {
     "propertyCards": 820,
     "runtimeFields": 586,
-    "nativeFields": 164,
-    "fieldSourceMapTestedFields": 164,
+    "nativeFields": 185,
+    "fieldSourceMapTestedFields": 185,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureTestedFields": 193,
+    "preserveFixtureTestedFields": 179,
     "payloadPreserveFixtureMissingFields": 0,
     "domainsWithNativeFieldGaps": 0,
     "typesWithNativeFieldGaps": 0
@@ -123,50 +123,50 @@
     "propertyCards": 820,
     "runtimePropertyCards": 586,
     "editorOnlyPropertyCards": 234,
-    "nativeSubsetTypes": 66,
+    "nativeSubsetTypes": 71,
     "mappedImporterTypes": 308,
-    "nativeSubsetRuntimeFields": 164,
-    "preserveRequiredRuntimeFields": 422,
+    "nativeSubsetRuntimeFields": 185,
+    "preserveRequiredRuntimeFields": 401,
     "payloadPreserveFields": 12,
-    "nativeWriterRequiredFields": 164,
-    "preserveOrBlockRuntimeFields": 410,
+    "nativeWriterRequiredFields": 185,
+    "preserveOrBlockRuntimeFields": 389,
     "editorPreserveRequiredFields": 234,
     "schemaDefaultKnownFields": 755,
     "runtimeDefaultOmissionUnprovenFields": 586,
     "writerRuleUntestedFields": 586,
-    "fieldFixtureEvidenceFields": 164,
+    "fieldFixtureEvidenceFields": 185,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureEvidenceFields": 193,
+    "preserveFixtureEvidenceFields": 179,
     "payloadPreserveFixtureMissingFields": 0
   },
   "preserveCounts": {
-    "preserveTypes": 225,
-    "preserveProperties": 656,
-    "runtimePreserveProperties": 422,
+    "preserveTypes": 224,
+    "preserveProperties": 635,
+    "runtimePreserveProperties": 401,
     "payloadPreserveProperties": 12,
     "editorOnlyPreserveProperties": 234,
-    "preserveFixtureTestedProperties": 193,
+    "preserveFixtureTestedProperties": 179,
     "payloadPreserveFixtureMissingProperties": 0,
     "unassignedAnchorProperties": 0,
-    "nativeSubsetTypes": 66,
-    "anchorClassifiedPreserveTypes": 225,
-    "preserveOnlyAnchorClassifiedTypes": 200,
-    "nativeOrAnchorClassifiedTypes": 266,
-    "losslessPreserveCompleteTypes": 50,
+    "nativeSubsetTypes": 71,
+    "anchorClassifiedPreserveTypes": 224,
+    "preserveOnlyAnchorClassifiedTypes": 196,
+    "nativeOrAnchorClassifiedTypes": 267,
+    "losslessPreserveCompleteTypes": 49,
     "anchorClassifiedButFixtureIncompleteTypes": 175
   },
   "gapCounts": {
-    "typeGaps": 185,
+    "typeGaps": 183,
     "p0": 13,
-    "p1": 20,
-    "p2": 152,
-    "preserveRequiredRuntimeFields": 422,
+    "p1": 19,
+    "p2": 151,
+    "preserveRequiredRuntimeFields": 401,
     "payloadPreserveFields": 12,
-    "writerRuleUntestedRuntimeFields": 512,
-    "runtimeDefaultOmissionUnprovenFields": 512,
+    "writerRuleUntestedRuntimeFields": 506,
+    "runtimeDefaultOmissionUnprovenFields": 506,
     "schemaDefaultMissingFields": 50,
-    "fieldFixtureEvidenceFields": 90,
+    "fieldFixtureEvidenceFields": 105,
     "typeFixtureOnlyNativeFields": 0,
     "payloadPreserveFixtureMissingFields": 0
   },
@@ -304,28 +304,28 @@
     {
       "domain": "shapes",
       "runtimeFields": 72,
-      "nativeFields": 23,
-      "fieldProven": 23,
+      "nativeFields": 27,
+      "fieldProven": 27,
       "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
       "preserveProven": 31,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 26,
+      "preserveOrFuture": 22,
       "nativeProofPercent": 100,
-      "runtimeNativePercent": 31.9
+      "runtimeNativePercent": 37.5
     },
     {
       "domain": "text",
       "runtimeFields": 55,
-      "nativeFields": 0,
-      "fieldProven": 0,
+      "nativeFields": 17,
+      "fieldProven": 17,
       "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
-      "preserveProven": 49,
+      "preserveProven": 35,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 12,
-      "nativeProofPercent": 0,
-      "runtimeNativePercent": 0
+      "preserveOrFuture": 9,
+      "nativeProofPercent": 100,
+      "runtimeNativePercent": 30.9
     },
     {
       "domain": "viewmodel",
@@ -376,11 +376,11 @@
     },
     {
       "domain": "Shapes And Paths",
-      "typeGaps": 19,
-      "preserveRequiredRuntimeFields": 49,
+      "typeGaps": 18,
+      "preserveRequiredRuntimeFields": 45,
       "p0": 1,
       "p1": 1,
-      "p2": 17
+      "p2": 16
     },
     {
       "domain": "State Machines",
@@ -392,10 +392,10 @@
     },
     {
       "domain": "Unknown And Preserve",
-      "typeGaps": 37,
-      "preserveRequiredRuntimeFields": 138,
+      "typeGaps": 36,
+      "preserveRequiredRuntimeFields": 121,
       "p0": 2,
-      "p1": 9,
+      "p1": 8,
       "p2": 26
     },
     {
