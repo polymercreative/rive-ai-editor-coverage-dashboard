@@ -85,10 +85,10 @@
     },
     "preserveFixtureEvidence": {
       "label": "Preserve fixture evidence",
-      "proven": 123,
+      "proven": 131,
       "total": 422,
-      "remaining": 299,
-      "percent": 29.1
+      "remaining": 291,
+      "percent": 31
     },
     "payloadPreserveProof": {
       "label": "Payload preserve proof",
@@ -113,7 +113,7 @@
     "fieldSourceMapTestedFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureTestedFields": 123,
+    "preserveFixtureTestedFields": 131,
     "payloadPreserveFixtureMissingFields": 0,
     "domainsWithNativeFieldGaps": 0,
     "typesWithNativeFieldGaps": 0
@@ -137,7 +137,7 @@
     "fieldFixtureEvidenceFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureEvidenceFields": 123,
+    "preserveFixtureEvidenceFields": 131,
     "payloadPreserveFixtureMissingFields": 0
   },
   "preserveCounts": {
@@ -146,15 +146,15 @@
     "runtimePreserveProperties": 422,
     "payloadPreserveProperties": 12,
     "editorOnlyPreserveProperties": 234,
-    "preserveFixtureTestedProperties": 123,
+    "preserveFixtureTestedProperties": 131,
     "payloadPreserveFixtureMissingProperties": 0,
     "unassignedAnchorProperties": 0,
     "nativeSubsetTypes": 66,
     "anchorClassifiedPreserveTypes": 225,
     "preserveOnlyAnchorClassifiedTypes": 200,
     "nativeOrAnchorClassifiedTypes": 266,
-    "losslessPreserveCompleteTypes": 32,
-    "anchorClassifiedButFixtureIncompleteTypes": 193
+    "losslessPreserveCompleteTypes": 34,
+    "anchorClassifiedButFixtureIncompleteTypes": 191
   },
   "gapCounts": {
     "typeGaps": 185,
@@ -204,9 +204,9 @@
       "fieldProven": 0,
       "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
-      "preserveProven": 14,
+      "preserveProven": 22,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 8,
+      "preserveOrFuture": 0,
       "nativeProofPercent": 0,
       "runtimeNativePercent": 0
     },
