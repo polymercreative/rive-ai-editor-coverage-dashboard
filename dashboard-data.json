@@ -85,10 +85,10 @@
     },
     "preserveFixtureEvidence": {
       "label": "Preserve fixture evidence",
-      "proven": 59,
+      "proven": 74,
       "total": 422,
-      "remaining": 363,
-      "percent": 14
+      "remaining": 348,
+      "percent": 17.5
     },
     "payloadPreserveProof": {
       "label": "Payload preserve proof",
@@ -113,7 +113,7 @@
     "fieldSourceMapTestedFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureTestedFields": 59,
+    "preserveFixtureTestedFields": 74,
     "payloadPreserveFixtureMissingFields": 0,
     "domainsWithNativeFieldGaps": 0,
     "typesWithNativeFieldGaps": 0
@@ -137,7 +137,7 @@
     "fieldFixtureEvidenceFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureEvidenceFields": 59,
+    "preserveFixtureEvidenceFields": 74,
     "payloadPreserveFixtureMissingFields": 0
   },
   "preserveCounts": {
@@ -146,15 +146,15 @@
     "runtimePreserveProperties": 422,
     "payloadPreserveProperties": 12,
     "editorOnlyPreserveProperties": 234,
-    "preserveFixtureTestedProperties": 59,
+    "preserveFixtureTestedProperties": 74,
     "payloadPreserveFixtureMissingProperties": 0,
     "unassignedAnchorProperties": 0,
     "nativeSubsetTypes": 66,
     "anchorClassifiedPreserveTypes": 225,
     "preserveOnlyAnchorClassifiedTypes": 200,
     "nativeOrAnchorClassifiedTypes": 266,
-    "losslessPreserveCompleteTypes": 16,
-    "anchorClassifiedButFixtureIncompleteTypes": 209
+    "losslessPreserveCompleteTypes": 17,
+    "anchorClassifiedButFixtureIncompleteTypes": 208
   },
   "gapCounts": {
     "typeGaps": 185,
@@ -217,9 +217,9 @@
       "fieldProven": 0,
       "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
-      "preserveProven": 0,
+      "preserveProven": 15,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 51,
+      "preserveOrFuture": 36,
       "nativeProofPercent": 0,
       "runtimeNativePercent": 0
     },
