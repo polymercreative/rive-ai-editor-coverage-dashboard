@@ -85,10 +85,10 @@
     },
     "preserveFixtureEvidence": {
       "label": "Preserve fixture evidence",
-      "proven": 131,
+      "proven": 158,
       "total": 422,
-      "remaining": 291,
-      "percent": 31
+      "remaining": 264,
+      "percent": 37.4
     },
     "payloadPreserveProof": {
       "label": "Payload preserve proof",
@@ -113,7 +113,7 @@
     "fieldSourceMapTestedFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureTestedFields": 131,
+    "preserveFixtureTestedFields": 158,
     "payloadPreserveFixtureMissingFields": 0,
     "domainsWithNativeFieldGaps": 0,
     "typesWithNativeFieldGaps": 0
@@ -137,7 +137,7 @@
     "fieldFixtureEvidenceFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureEvidenceFields": 131,
+    "preserveFixtureEvidenceFields": 158,
     "payloadPreserveFixtureMissingFields": 0
   },
   "preserveCounts": {
@@ -146,15 +146,15 @@
     "runtimePreserveProperties": 422,
     "payloadPreserveProperties": 12,
     "editorOnlyPreserveProperties": 234,
-    "preserveFixtureTestedProperties": 131,
+    "preserveFixtureTestedProperties": 158,
     "payloadPreserveFixtureMissingProperties": 0,
     "unassignedAnchorProperties": 0,
     "nativeSubsetTypes": 66,
     "anchorClassifiedPreserveTypes": 225,
     "preserveOnlyAnchorClassifiedTypes": 200,
     "nativeOrAnchorClassifiedTypes": 266,
-    "losslessPreserveCompleteTypes": 34,
-    "anchorClassifiedButFixtureIncompleteTypes": 191
+    "losslessPreserveCompleteTypes": 43,
+    "anchorClassifiedButFixtureIncompleteTypes": 182
   },
   "gapCounts": {
     "typeGaps": 185,
@@ -308,9 +308,9 @@
       "fieldProven": 23,
       "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
-      "preserveProven": 4,
+      "preserveProven": 31,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 53,
+      "preserveOrFuture": 26,
       "nativeProofPercent": 100,
       "runtimeNativePercent": 31.9
     },
