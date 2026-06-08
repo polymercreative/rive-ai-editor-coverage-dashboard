@@ -85,10 +85,10 @@
     },
     "preserveFixtureEvidence": {
       "label": "Preserve fixture evidence",
-      "proven": 158,
+      "proven": 193,
       "total": 422,
-      "remaining": 264,
-      "percent": 37.4
+      "remaining": 229,
+      "percent": 45.7
     },
     "payloadPreserveProof": {
       "label": "Payload preserve proof",
@@ -113,7 +113,7 @@
     "fieldSourceMapTestedFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureTestedFields": 158,
+    "preserveFixtureTestedFields": 193,
     "payloadPreserveFixtureMissingFields": 0,
     "domainsWithNativeFieldGaps": 0,
     "typesWithNativeFieldGaps": 0
@@ -137,7 +137,7 @@
     "fieldFixtureEvidenceFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureEvidenceFields": 158,
+    "preserveFixtureEvidenceFields": 193,
     "payloadPreserveFixtureMissingFields": 0
   },
   "preserveCounts": {
@@ -146,15 +146,15 @@
     "runtimePreserveProperties": 422,
     "payloadPreserveProperties": 12,
     "editorOnlyPreserveProperties": 234,
-    "preserveFixtureTestedProperties": 158,
+    "preserveFixtureTestedProperties": 193,
     "payloadPreserveFixtureMissingProperties": 0,
     "unassignedAnchorProperties": 0,
     "nativeSubsetTypes": 66,
     "anchorClassifiedPreserveTypes": 225,
     "preserveOnlyAnchorClassifiedTypes": 200,
     "nativeOrAnchorClassifiedTypes": 266,
-    "losslessPreserveCompleteTypes": 43,
-    "anchorClassifiedButFixtureIncompleteTypes": 182
+    "losslessPreserveCompleteTypes": 50,
+    "anchorClassifiedButFixtureIncompleteTypes": 175
   },
   "gapCounts": {
     "typeGaps": 185,
@@ -321,9 +321,9 @@
       "fieldProven": 0,
       "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
-      "preserveProven": 14,
+      "preserveProven": 49,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 47,
+      "preserveOrFuture": 12,
       "nativeProofPercent": 0,
       "runtimeNativePercent": 0
     },
