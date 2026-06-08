@@ -72,9 +72,9 @@
     "nativeFieldProof": {
       "label": "Native field proof",
       "proven": 164,
-      "total": 167,
-      "remaining": 3,
-      "percent": 98.2
+      "total": 164,
+      "remaining": 0,
+      "percent": 100
     },
     "mappedTypeRollup": {
       "label": "Mapped native-subset types",
@@ -86,9 +86,9 @@
     "preserveFixtureEvidence": {
       "label": "Preserve fixture evidence",
       "proven": 47,
-      "total": 419,
-      "remaining": 372,
-      "percent": 11.2
+      "total": 422,
+      "remaining": 375,
+      "percent": 11.1
     },
     "payloadPreserveProof": {
       "label": "Payload preserve proof",
@@ -109,14 +109,14 @@
   "proofCounts": {
     "propertyCards": 820,
     "runtimeFields": 586,
-    "nativeFields": 167,
+    "nativeFields": 164,
     "fieldSourceMapTestedFields": 164,
-    "typeFixtureOnlyNativeFields": 3,
+    "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
     "preserveFixtureTestedFields": 47,
     "payloadPreserveFixtureMissingFields": 0,
-    "domainsWithNativeFieldGaps": 2,
-    "typesWithNativeFieldGaps": 3
+    "domainsWithNativeFieldGaps": 0,
+    "typesWithNativeFieldGaps": 0
   },
   "mappingCounts": {
     "types": 353,
@@ -125,25 +125,25 @@
     "editorOnlyPropertyCards": 234,
     "nativeSubsetTypes": 66,
     "mappedImporterTypes": 308,
-    "nativeSubsetRuntimeFields": 167,
-    "preserveRequiredRuntimeFields": 419,
+    "nativeSubsetRuntimeFields": 164,
+    "preserveRequiredRuntimeFields": 422,
     "payloadPreserveFields": 12,
-    "nativeWriterRequiredFields": 167,
-    "preserveOrBlockRuntimeFields": 407,
+    "nativeWriterRequiredFields": 164,
+    "preserveOrBlockRuntimeFields": 410,
     "editorPreserveRequiredFields": 234,
     "schemaDefaultKnownFields": 755,
     "runtimeDefaultOmissionUnprovenFields": 586,
     "writerRuleUntestedFields": 586,
     "fieldFixtureEvidenceFields": 164,
-    "typeFixtureOnlyNativeFields": 3,
+    "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
     "preserveFixtureEvidenceFields": 47,
     "payloadPreserveFixtureMissingFields": 0
   },
   "preserveCounts": {
     "preserveTypes": 225,
-    "preserveProperties": 653,
-    "runtimePreserveProperties": 419,
+    "preserveProperties": 656,
+    "runtimePreserveProperties": 422,
     "payloadPreserveProperties": 12,
     "editorOnlyPreserveProperties": 234,
     "preserveFixtureTestedProperties": 47,
@@ -153,49 +153,36 @@
     "anchorClassifiedPreserveTypes": 225,
     "preserveOnlyAnchorClassifiedTypes": 200,
     "nativeOrAnchorClassifiedTypes": 266,
-    "losslessPreserveCompleteTypes": 16,
-    "anchorClassifiedButFixtureIncompleteTypes": 209
+    "losslessPreserveCompleteTypes": 15,
+    "anchorClassifiedButFixtureIncompleteTypes": 210
   },
   "gapCounts": {
-    "typeGaps": 183,
+    "typeGaps": 185,
     "p0": 13,
     "p1": 20,
-    "p2": 150,
-    "preserveRequiredRuntimeFields": 419,
+    "p2": 152,
+    "preserveRequiredRuntimeFields": 422,
     "payloadPreserveFields": 12,
-    "writerRuleUntestedRuntimeFields": 430,
-    "runtimeDefaultOmissionUnprovenFields": 430,
-    "schemaDefaultMissingFields": 49,
-    "fieldFixtureEvidenceFields": 10,
-    "typeFixtureOnlyNativeFields": 1,
+    "writerRuleUntestedRuntimeFields": 512,
+    "runtimeDefaultOmissionUnprovenFields": 512,
+    "schemaDefaultMissingFields": 50,
+    "fieldFixtureEvidenceFields": 90,
+    "typeFixtureOnlyNativeFields": 0,
     "payloadPreserveFixtureMissingFields": 0
   },
   "domains": [
     {
       "domain": "animation",
       "runtimeFields": 94,
-      "nativeFields": 32,
+      "nativeFields": 30,
       "fieldProven": 30,
-      "typeOnlyNeedsFieldAssertion": 2,
+      "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
       "preserveProven": 3,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 116,
-      "nativeProofPercent": 93.8,
-      "runtimeNativePercent": 34
-    },
-    {
-      "domain": "layout",
-      "runtimeFields": 90,
-      "nativeFields": 75,
-      "fieldProven": 74,
-      "typeOnlyNeedsFieldAssertion": 1,
-      "nativeFieldMissing": 0,
-      "preserveProven": 0,
-      "payloadPreserveMissing": 0,
-      "preserveOrFuture": 18,
-      "nativeProofPercent": 98.7,
-      "runtimeNativePercent": 83.3
+      "preserveOrFuture": 118,
+      "nativeProofPercent": 100,
+      "runtimeNativePercent": 31.9
     },
     {
       "domain": "assets",
@@ -274,6 +261,19 @@
       "preserveOrFuture": 9,
       "nativeProofPercent": 0,
       "runtimeNativePercent": 0
+    },
+    {
+      "domain": "layout",
+      "runtimeFields": 90,
+      "nativeFields": 74,
+      "fieldProven": 74,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 0,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 19,
+      "nativeProofPercent": 100,
+      "runtimeNativePercent": 82.2
     },
     {
       "domain": "scripted",
@@ -360,11 +360,11 @@
     },
     {
       "domain": "Layout",
-      "typeGaps": 4,
-      "preserveRequiredRuntimeFields": 15,
+      "typeGaps": 5,
+      "preserveRequiredRuntimeFields": 16,
       "p0": 0,
       "p1": 0,
-      "p2": 4
+      "p2": 5
     },
     {
       "domain": "Luau Scripts And Scripted Objects",
@@ -384,11 +384,11 @@
     },
     {
       "domain": "State Machines",
-      "typeGaps": 51,
-      "preserveRequiredRuntimeFields": 70,
+      "typeGaps": 52,
+      "preserveRequiredRuntimeFields": 72,
       "p0": 3,
       "p1": 2,
-      "p2": 46
+      "p2": 47
     },
     {
       "domain": "Unknown And Preserve",
@@ -407,43 +407,6 @@
       "p2": 36
     }
   ],
-  "topTypeGaps": [
-    {
-      "typeName": "LayoutComponentStyle",
-      "domain": "layout",
-      "nativeFields": 75,
-      "fieldProven": 74,
-      "typeOnlyNeedsFieldAssertion": 1,
-      "nativeFieldMissing": 0,
-      "payloadPreserveMissing": 0,
-      "fieldIds": [
-        "LayoutComponentStyle.interpolatorId"
-      ]
-    },
-    {
-      "typeName": "StateMachineListenerSingle",
-      "domain": "animation",
-      "nativeFields": 2,
-      "fieldProven": 1,
-      "typeOnlyNeedsFieldAssertion": 1,
-      "nativeFieldMissing": 0,
-      "payloadPreserveMissing": 0,
-      "fieldIds": [
-        "StateMachineListenerSingle.eventId"
-      ]
-    },
-    {
-      "typeName": "StateTransition",
-      "domain": "animation",
-      "nativeFields": 7,
-      "fieldProven": 6,
-      "typeOnlyNeedsFieldAssertion": 1,
-      "nativeFieldMissing": 0,
-      "payloadPreserveMissing": 0,
-      "fieldIds": [
-        "StateTransition.interpolatorId"
-      ]
-    }
-  ],
+  "topTypeGaps": [],
   "payloadPreserveMissingFields": []
 }
