@@ -85,10 +85,10 @@
     },
     "preserveFixtureEvidence": {
       "label": "Preserve fixture evidence",
-      "proven": 47,
+      "proven": 59,
       "total": 422,
-      "remaining": 375,
-      "percent": 11.1
+      "remaining": 363,
+      "percent": 14
     },
     "payloadPreserveProof": {
       "label": "Payload preserve proof",
@@ -113,7 +113,7 @@
     "fieldSourceMapTestedFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureTestedFields": 47,
+    "preserveFixtureTestedFields": 59,
     "payloadPreserveFixtureMissingFields": 0,
     "domainsWithNativeFieldGaps": 0,
     "typesWithNativeFieldGaps": 0
@@ -137,7 +137,7 @@
     "fieldFixtureEvidenceFields": 164,
     "typeFixtureOnlyNativeFields": 0,
     "nativeFieldFixtureMissingFields": 0,
-    "preserveFixtureEvidenceFields": 47,
+    "preserveFixtureEvidenceFields": 59,
     "payloadPreserveFixtureMissingFields": 0
   },
   "preserveCounts": {
@@ -146,15 +146,15 @@
     "runtimePreserveProperties": 422,
     "payloadPreserveProperties": 12,
     "editorOnlyPreserveProperties": 234,
-    "preserveFixtureTestedProperties": 47,
+    "preserveFixtureTestedProperties": 59,
     "payloadPreserveFixtureMissingProperties": 0,
     "unassignedAnchorProperties": 0,
     "nativeSubsetTypes": 66,
     "anchorClassifiedPreserveTypes": 225,
     "preserveOnlyAnchorClassifiedTypes": 200,
     "nativeOrAnchorClassifiedTypes": 266,
-    "losslessPreserveCompleteTypes": 15,
-    "anchorClassifiedButFixtureIncompleteTypes": 210
+    "losslessPreserveCompleteTypes": 16,
+    "anchorClassifiedButFixtureIncompleteTypes": 209
   },
   "gapCounts": {
     "typeGaps": 185,
@@ -230,9 +230,9 @@
       "fieldProven": 26,
       "typeOnlyNeedsFieldAssertion": 0,
       "nativeFieldMissing": 0,
-      "preserveProven": 2,
+      "preserveProven": 14,
       "payloadPreserveMissing": 0,
-      "preserveOrFuture": 142,
+      "preserveOrFuture": 130,
       "nativeProofPercent": 100,
       "runtimeNativePercent": 32.1
     },
