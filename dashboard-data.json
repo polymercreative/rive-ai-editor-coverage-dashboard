@@ -1,0 +1,449 @@
+{
+  "schema": "rive-coverage-dashboard/v1",
+  "generatedAt": null,
+  "sources": {
+    "sourceMapProofIndex": "generated/rive-source-map-proof-index.json",
+    "propertyMappingCoverage": "generated/rive-property-mapping-coverage.json",
+    "knowledgebaseGapQueue": "generated/rive-knowledgebase-gap-queue.json",
+    "preserveAnchorCatalog": "generated/rive-preserve-anchor-catalog.json"
+  },
+  "manual": {
+    "currentWave": {
+      "title": "Coverage proof wave",
+      "target": "Move source-language completion toward 50% with proven native or preserve-first slices.",
+      "status": "active"
+    },
+    "inProgress": [
+      {
+        "title": "StateTransition.interpolatorId",
+        "domain": "animation",
+        "owner": "reused mesh lane",
+        "status": "active",
+        "detail": "Checking whether transition interpolator refs can be represented natively or must stay blocked behind a missing interpolator identity."
+      },
+      {
+        "title": "LayoutComponentStyle.interpolatorId",
+        "domain": "layout",
+        "owner": "layout worker",
+        "status": "active",
+        "detail": "Testing whether layout style interpolator refs have a legal native source identity and round-trip proof path."
+      },
+      {
+        "title": "StateMachineListenerSingle.eventId",
+        "domain": "animation",
+        "owner": "event listener worker",
+        "status": "active",
+        "detail": "Looking for a real event source identity and listener attachment path before claiming field proof."
+      },
+      {
+        "title": "ListenerInputChange.nestedInputId",
+        "domain": "animation",
+        "owner": "nested input worker",
+        "status": "active",
+        "detail": "Checking whether nested input ids can be authored and reattached without raw local-id guessing."
+      },
+      {
+        "title": "Asset payload preserve hardening",
+        "domain": "assets",
+        "owner": "asset preserve worker",
+        "status": "active",
+        "detail": "Strengthening script/shader asset preserve proof for bytes, signatures, cdn UUIDs, metadata, and source-map/report contracts."
+      }
+    ],
+    "recentlyCompleted": [
+      {
+        "commit": "0cd24ae",
+        "title": "Mesh triangle index preserve",
+        "detail": "Closed the last payload-preserve fixture gap with Mesh.triangleIndexBytes byte/sha proof."
+      },
+      {
+        "commit": "9c62352",
+        "title": "Listener action flags",
+        "detail": "Proved native field coverage for ListenerAction.flags."
+      },
+      {
+        "commit": "7859ebc",
+        "title": "Trigger fire callback",
+        "detail": "Reclassified ViewModelInstanceTrigger.fire as non-source-owned with a hard-fail proof."
+      }
+    ]
+  },
+  "summary": {
+    "nativeFieldProof": {
+      "label": "Native field proof",
+      "proven": 164,
+      "total": 167,
+      "remaining": 3,
+      "percent": 98.2
+    },
+    "mappedTypeRollup": {
+      "label": "Mapped native-subset types",
+      "proven": 66,
+      "total": 353,
+      "remaining": 287,
+      "percent": 18.7
+    },
+    "preserveFixtureEvidence": {
+      "label": "Preserve fixture evidence",
+      "proven": 47,
+      "total": 419,
+      "remaining": 372,
+      "percent": 11.2
+    },
+    "payloadPreserveProof": {
+      "label": "Payload preserve proof",
+      "proven": 12,
+      "total": 12,
+      "remaining": 0,
+      "percent": 100
+    },
+    "totalHandledTypeCompletion": {
+      "label": "Native or anchor-classified types",
+      "proven": 266,
+      "total": 353,
+      "remaining": 87,
+      "percent": 75.4,
+      "note": "This is not field-complete proof; it is a map of types with native or preserve anchors."
+    }
+  },
+  "proofCounts": {
+    "propertyCards": 820,
+    "runtimeFields": 586,
+    "nativeFields": 167,
+    "fieldSourceMapTestedFields": 164,
+    "typeFixtureOnlyNativeFields": 3,
+    "nativeFieldFixtureMissingFields": 0,
+    "preserveFixtureTestedFields": 47,
+    "payloadPreserveFixtureMissingFields": 0,
+    "domainsWithNativeFieldGaps": 2,
+    "typesWithNativeFieldGaps": 3
+  },
+  "mappingCounts": {
+    "types": 353,
+    "propertyCards": 820,
+    "runtimePropertyCards": 586,
+    "editorOnlyPropertyCards": 234,
+    "nativeSubsetTypes": 66,
+    "mappedImporterTypes": 308,
+    "nativeSubsetRuntimeFields": 167,
+    "preserveRequiredRuntimeFields": 419,
+    "payloadPreserveFields": 12,
+    "nativeWriterRequiredFields": 167,
+    "preserveOrBlockRuntimeFields": 407,
+    "editorPreserveRequiredFields": 234,
+    "schemaDefaultKnownFields": 755,
+    "runtimeDefaultOmissionUnprovenFields": 586,
+    "writerRuleUntestedFields": 586,
+    "fieldFixtureEvidenceFields": 164,
+    "typeFixtureOnlyNativeFields": 3,
+    "nativeFieldFixtureMissingFields": 0,
+    "preserveFixtureEvidenceFields": 47,
+    "payloadPreserveFixtureMissingFields": 0
+  },
+  "preserveCounts": {
+    "preserveTypes": 225,
+    "preserveProperties": 653,
+    "runtimePreserveProperties": 419,
+    "payloadPreserveProperties": 12,
+    "editorOnlyPreserveProperties": 234,
+    "preserveFixtureTestedProperties": 47,
+    "payloadPreserveFixtureMissingProperties": 0,
+    "unassignedAnchorProperties": 0,
+    "nativeSubsetTypes": 66,
+    "anchorClassifiedPreserveTypes": 225,
+    "preserveOnlyAnchorClassifiedTypes": 200,
+    "nativeOrAnchorClassifiedTypes": 266,
+    "losslessPreserveCompleteTypes": 16,
+    "anchorClassifiedButFixtureIncompleteTypes": 209
+  },
+  "gapCounts": {
+    "typeGaps": 183,
+    "p0": 13,
+    "p1": 20,
+    "p2": 150,
+    "preserveRequiredRuntimeFields": 419,
+    "payloadPreserveFields": 12,
+    "writerRuleUntestedRuntimeFields": 430,
+    "runtimeDefaultOmissionUnprovenFields": 430,
+    "schemaDefaultMissingFields": 49,
+    "fieldFixtureEvidenceFields": 10,
+    "typeFixtureOnlyNativeFields": 1,
+    "payloadPreserveFixtureMissingFields": 0
+  },
+  "domains": [
+    {
+      "domain": "animation",
+      "runtimeFields": 94,
+      "nativeFields": 32,
+      "fieldProven": 30,
+      "typeOnlyNeedsFieldAssertion": 2,
+      "nativeFieldMissing": 0,
+      "preserveProven": 3,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 116,
+      "nativeProofPercent": 93.8,
+      "runtimeNativePercent": 34
+    },
+    {
+      "domain": "layout",
+      "runtimeFields": 90,
+      "nativeFields": 75,
+      "fieldProven": 74,
+      "typeOnlyNeedsFieldAssertion": 1,
+      "nativeFieldMissing": 0,
+      "preserveProven": 0,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 18,
+      "nativeProofPercent": 98.7,
+      "runtimeNativePercent": 83.3
+    },
+    {
+      "domain": "assets",
+      "runtimeFields": 13,
+      "nativeFields": 0,
+      "fieldProven": 0,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 8,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 37,
+      "nativeProofPercent": 0,
+      "runtimeNativePercent": 0
+    },
+    {
+      "domain": "bones",
+      "runtimeFields": 22,
+      "nativeFields": 0,
+      "fieldProven": 0,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 0,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 22,
+      "nativeProofPercent": 0,
+      "runtimeNativePercent": 0
+    },
+    {
+      "domain": "constraints",
+      "runtimeFields": 51,
+      "nativeFields": 0,
+      "fieldProven": 0,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 0,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 51,
+      "nativeProofPercent": 0,
+      "runtimeNativePercent": 0
+    },
+    {
+      "domain": "core",
+      "runtimeFields": 81,
+      "nativeFields": 26,
+      "fieldProven": 26,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 2,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 142,
+      "nativeProofPercent": 100,
+      "runtimeNativePercent": 32.1
+    },
+    {
+      "domain": "data_bind",
+      "runtimeFields": 42,
+      "nativeFields": 0,
+      "fieldProven": 0,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 3,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 47,
+      "nativeProofPercent": 0,
+      "runtimeNativePercent": 0
+    },
+    {
+      "domain": "inputs",
+      "runtimeFields": 8,
+      "nativeFields": 0,
+      "fieldProven": 0,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 0,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 9,
+      "nativeProofPercent": 0,
+      "runtimeNativePercent": 0
+    },
+    {
+      "domain": "scripted",
+      "runtimeFields": 4,
+      "nativeFields": 0,
+      "fieldProven": 0,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 0,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 4,
+      "nativeProofPercent": 0,
+      "runtimeNativePercent": 0
+    },
+    {
+      "domain": "semantic",
+      "runtimeFields": 28,
+      "nativeFields": 0,
+      "fieldProven": 0,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 10,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 18,
+      "nativeProofPercent": 0,
+      "runtimeNativePercent": 0
+    },
+    {
+      "domain": "shapes",
+      "runtimeFields": 72,
+      "nativeFields": 23,
+      "fieldProven": 23,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 4,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 53,
+      "nativeProofPercent": 100,
+      "runtimeNativePercent": 31.9
+    },
+    {
+      "domain": "text",
+      "runtimeFields": 55,
+      "nativeFields": 0,
+      "fieldProven": 0,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 14,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 47,
+      "nativeProofPercent": 0,
+      "runtimeNativePercent": 0
+    },
+    {
+      "domain": "viewmodel",
+      "runtimeFields": 26,
+      "nativeFields": 11,
+      "fieldProven": 11,
+      "typeOnlyNeedsFieldAssertion": 0,
+      "nativeFieldMissing": 0,
+      "preserveProven": 3,
+      "payloadPreserveMissing": 0,
+      "preserveOrFuture": 42,
+      "nativeProofPercent": 100,
+      "runtimeNativePercent": 42.3
+    }
+  ],
+  "implementationDomains": [
+    {
+      "domain": "Assets",
+      "typeGaps": 7,
+      "preserveRequiredRuntimeFields": 13,
+      "p0": 3,
+      "p1": 0,
+      "p2": 4
+    },
+    {
+      "domain": "Constraints, Clipping, Draw Rules, Nested Artboards",
+      "typeGaps": 21,
+      "preserveRequiredRuntimeFields": 73,
+      "p0": 0,
+      "p1": 4,
+      "p2": 17
+    },
+    {
+      "domain": "Layout",
+      "typeGaps": 4,
+      "preserveRequiredRuntimeFields": 15,
+      "p0": 0,
+      "p1": 0,
+      "p2": 4
+    },
+    {
+      "domain": "Luau Scripts And Scripted Objects",
+      "typeGaps": 4,
+      "preserveRequiredRuntimeFields": 4,
+      "p0": 0,
+      "p1": 4,
+      "p2": 0
+    },
+    {
+      "domain": "Shapes And Paths",
+      "typeGaps": 19,
+      "preserveRequiredRuntimeFields": 49,
+      "p0": 1,
+      "p1": 1,
+      "p2": 17
+    },
+    {
+      "domain": "State Machines",
+      "typeGaps": 51,
+      "preserveRequiredRuntimeFields": 70,
+      "p0": 3,
+      "p1": 2,
+      "p2": 46
+    },
+    {
+      "domain": "Unknown And Preserve",
+      "typeGaps": 37,
+      "preserveRequiredRuntimeFields": 138,
+      "p0": 2,
+      "p1": 9,
+      "p2": 26
+    },
+    {
+      "domain": "View Models And Data Binding",
+      "typeGaps": 40,
+      "preserveRequiredRuntimeFields": 57,
+      "p0": 4,
+      "p1": 0,
+      "p2": 36
+    }
+  ],
+  "topTypeGaps": [
+    {
+      "typeName": "LayoutComponentStyle",
+      "domain": "layout",
+      "nativeFields": 75,
+      "fieldProven": 74,
+      "typeOnlyNeedsFieldAssertion": 1,
+      "nativeFieldMissing": 0,
+      "payloadPreserveMissing": 0,
+      "fieldIds": [
+        "LayoutComponentStyle.interpolatorId"
+      ]
+    },
+    {
+      "typeName": "StateMachineListenerSingle",
+      "domain": "animation",
+      "nativeFields": 2,
+      "fieldProven": 1,
+      "typeOnlyNeedsFieldAssertion": 1,
+      "nativeFieldMissing": 0,
+      "payloadPreserveMissing": 0,
+      "fieldIds": [
+        "StateMachineListenerSingle.eventId"
+      ]
+    },
+    {
+      "typeName": "StateTransition",
+      "domain": "animation",
+      "nativeFields": 7,
+      "fieldProven": 6,
+      "typeOnlyNeedsFieldAssertion": 1,
+      "nativeFieldMissing": 0,
+      "payloadPreserveMissing": 0,
+      "fieldIds": [
+        "StateTransition.interpolatorId"
+      ]
+    }
+  ],
+  "payloadPreserveMissingFields": []
+}
